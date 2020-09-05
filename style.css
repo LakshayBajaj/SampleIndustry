@@ -1,0 +1,510 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.line1, .yearold .row hr.line11, .regw hr.line11, .aboutus hr.line11, .gse .gse-text hr.line11, footer .ram .bottom, footer .col-lg-4 .card .line11 {
+  margin-left: 0;
+  text-align: left;
+  height: 1px;
+  background-color: #80A64C;
+  border-radius: 15%;
+}
+
+.line2, .yearold .row hr.line22, .regw hr.line22, .aboutus hr.line22, .gse .gse-text hr.line22 {
+  margin: 0em;
+  z-index: 1;
+  text-align: left;
+  height: 1px;
+  background-color: #04143D;
+  border-radius: 15%;
+  border-color: #04143D;
+  bottom: 41.5px;
+  position: relative;
+}
+
+i {
+  color: #80A64C;
+}
+
+/*  Responsive */
+@media only screen and (max-width: 600px) {
+  .top-bar .row .col-9 p {
+    margin: 0 auto;
+    padding-right: 1em;
+    padding-top: auto;
+  }
+  .top-bar .row .col-9 span {
+    display: none;
+  }
+  .gse-text {
+    padding: 0 auto;
+  }
+}
+
+.top-bar .col-3 {
+  color: white;
+  background-color: #030E22;
+}
+
+.top-bar .col-3 p {
+  margin-bottom: 0;
+  font-size: 1em;
+  padding-top: 1em;
+}
+
+.top-bar .col-9 {
+  background-color: #04143D;
+  color: white;
+}
+
+.top-bar .col-9 p {
+  padding: 1em 7% 0 0;
+}
+
+.top-bar .col-9 p .fa-phone {
+  padding-right: 0.5em;
+}
+
+.top-bar .col-9 p span {
+  padding-right: 0.75em;
+}
+
+.logo {
+  margin-left: 2em;
+  width: 5em;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 1px 7px 1.5px #727272;
+          box-shadow: 0 1px 7px 1.5px #727272;
+}
+
+.navbar-item {
+  display: inline;
+}
+
+li.nav-item {
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+.reg-btn {
+  font-size: 5px;
+  text-transform: uppercase;
+}
+
+.ul-list {
+  float: right;
+}
+
+ul.navbar-nav #active {
+  color: #80A64C;
+}
+
+ul.navbar-nav .btn-success {
+  background-color: #80A64C;
+  border-color: #80A64C;
+}
+
+ul.navbar-nav .btn-success:hover {
+  background-color: #739544;
+  border-color: #739544;
+}
+
+.yearold .row {
+  padding-top: 5em;
+  font-size: 1em;
+}
+
+.yearold .row p {
+  margin: 5px;
+  color: #a8a8a8;
+}
+
+.yearold .row h3 {
+  color: #04143D;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.yearold .row hr.line11 {
+  width: 30%;
+}
+
+.yearold .row hr.line22 {
+  width: 10%;
+}
+
+.threee {
+  height: 150px;
+  position: relative;
+  left: 150px;
+  z-index: 1;
+  margin-left: 2em;
+  margin-top: 2em;
+  padding-top: 0 !important;
+  -webkit-box-shadow: 0.5px 0.5px 10px 1px #b8b8b8;
+          box-shadow: 0.5px 0.5px 10px 1px #b8b8b8;
+}
+
+.threee .card {
+  width: 180px;
+  padding-top: 20px;
+}
+
+.threee .one,
+.threee .three {
+  border: none;
+}
+
+.threee .two {
+  border-top: none;
+  border-bottom: none;
+}
+
+.threee .card-body {
+  text-align: center;
+}
+
+.threee .card-title {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  color: #80A64C;
+}
+
+.threee .card-text {
+  font-weight: bold;
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding img {
+  position: relative;
+  width: 600px;
+  bottom: 20px;
+  left: 20px;
+}
+
+.maxw {
+  max-width: 100%;
+}
+
+.img2 {
+  padding-top: 7% !important;
+}
+
+.regw .col-12 {
+  padding-bottom: 2.5em;
+}
+
+.regw p {
+  margin: 5px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.regw h1 {
+  padding-top: 0.4em;
+  font-weight: bold;
+  color: #04143D;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.regw hr {
+  margin-top: 25px;
+}
+
+.regw hr.line11 {
+  width: 12%;
+}
+
+.regw hr.line22 {
+  bottom: 18px;
+  width: 4%;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.carousel-caption {
+  -webkit-transform: translatey(-200%);
+          transform: translatey(-200%);
+}
+
+.carousel-caption h5 {
+  text-shadow: 3px 3px 7px black;
+  color: white !important;
+  font-size: 5em;
+  text-align: left;
+}
+
+.carousel-caption p {
+  text-shadow: 1px 1px 5px black;
+  font-size: 2em;
+  text-align: left;
+}
+
+.collection span {
+  padding-top: 0.5em;
+  font-size: 4em;
+  text-align: center;
+}
+
+.collection span i {
+  color: #04143D;
+}
+
+.collection .card {
+  margin-bottom: 5em;
+  background-color: #F3F5F9;
+  border-bottom: 5px solid #04143D;
+  height: 340px;
+}
+
+.collection .card .arr {
+  position: relative;
+  left: 43%;
+  top: 21px;
+  width: 2.5em;
+}
+
+.collection .col-3 {
+  padding: 0 15px;
+}
+
+.collection .card-body {
+  text-align: center;
+  padding: 0 1.5em;
+}
+
+.collection .card-body .card-title {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.collection .card-body .card-text {
+  font-weight: lighter;
+  padding-bottom: 2em;
+}
+
+.aboutus {
+  margin: 2em 0;
+  width: 100%;
+  background-image: url("https://www.hadek.com/wp-content/uploads/opatovice-header-2-1200x430.jpg");
+  height: 500px;
+  background-color: #04143D;
+}
+
+.aboutus .card {
+  margin-top: 20%;
+}
+
+.aboutus .card-body {
+  padding: 2em 3em;
+}
+
+.aboutus .card-title {
+  color: #04143D;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.aboutus hr.line11 {
+  width: 20%;
+  position: relative;
+  bottom: 10px;
+}
+
+.aboutus hr.line22 {
+  width: 5%;
+  margin-top: 29px;
+}
+
+.aboutus .card-text {
+  font-size: 1em;
+}
+
+.aboutus large {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #80A64C;
+  font-weight: bold;
+}
+
+.aboutus i {
+  padding-left: 0.5em;
+  color: #04143D;
+}
+
+.gse {
+  height: 650px;
+  overflow: hidden;
+  margin-top: 5em;
+}
+
+.gse .img {
+  padding: 0;
+}
+
+.gse .img img {
+  max-width: 100%;
+}
+
+.gse .gse-text {
+  padding: 1% 3% 4% 3%;
+}
+
+.gse .gse-text p {
+  font-size: 1em;
+  color: #a8a8a8;
+}
+
+.gse .gse-text h1 {
+  color: #04143D;
+  font-weight: bold;
+  font-size: 3.8em;
+}
+
+.gse .gse-text hr.line11 {
+  width: 20%;
+}
+
+.gse .gse-text hr.line22 {
+  margin-top: 39px;
+  width: 8%;
+}
+
+.gse .gse-text strong {
+  padding-left: 0.7em;
+  font-size: 1.125em;
+  color: black;
+}
+
+.grb {
+  position: relative;
+  bottom: 0.8em;
+  background-color: #80A64C;
+  color: white;
+  margin: 0 3em;
+  padding: 3em 4em 3em 3.5em;
+  z-index: 1;
+}
+
+.grb span {
+  font-size: 1.35em;
+  font-weight: bold;
+}
+
+.grb .btn {
+  color: #04143D;
+  font-weight: bold;
+  font-size: 0.8em;
+  float: right;
+}
+
+.grb .btn:hover {
+  -webkit-box-shadow: 1.2px 1px 6px 0.5px #333;
+          box-shadow: 1.2px 1px 6px 0.5px #333;
+}
+
+footer {
+  background-color: #04143D;
+  color: #a8a8a8;
+  position: relative;
+  z-index: -5;
+  bottom: 2em;
+  padding-top: 8em;
+}
+
+footer .fa-caret-square-up {
+  float: right;
+  color: white;
+  padding-right: 0.2em;
+  font-size: 3em;
+  position: relative;
+  bottom: 1em;
+}
+
+footer .ram {
+  padding: 0 10%;
+}
+
+footer .ram .bottom {
+  width: 100%;
+  height: 0.5px;
+  border-radius: 0;
+  background-color: #424242;
+}
+
+footer .col-lg-4 .card {
+  border-top: 1px solid #424242;
+  padding: 10% 15%;
+  margin: 5% 0;
+  background-color: inherit;
+  height: 400px;
+}
+
+footer .col-lg-4 .card .line11 {
+  width: 18%;
+  margin-top: 5px;
+  height: 0.5px;
+  margin-bottom: 25px;
+}
+
+footer .col-lg-4 .card .num {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+}
+
+footer .col-lg-4 .card .email {
+  color: #80A64C;
+}
+
+footer .col-lg-4 .card .btn {
+  margin-top: 1em;
+  font-size: 1em;
+  padding: 1em;
+  width: 180px;
+  font-weight: bold;
+}
+
+footer .col-lg-4 .card .btn:hover {
+  color: white;
+  background-color: #80A64C;
+}
+
+footer .col-lg-4 h4 {
+  font-weight: bold;
+  color: white;
+}
+
+.lowest {
+  padding: 1em;
+}
+
+.lowest .col-4 i {
+  color: #a8a8a8;
+}
+
+.lowest .col-7 span {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #80A64C;
+}
+/*# sourceMappingURL=style.css.map */
